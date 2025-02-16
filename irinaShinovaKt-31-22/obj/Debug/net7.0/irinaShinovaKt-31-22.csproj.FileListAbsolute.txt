@@ -34,3 +34,13 @@ D:\Source\Repos\iraSerg\irina-shinova_kt-31-22\irinaShinovaKt-31-22\obj\Debug\ne
 D:\Source\Repos\iraSerg\irina-shinova_kt-31-22\irinaShinovaKt-31-22\obj\Debug\net7.0\irinaShinovaKt-31-22.pdb
 D:\Source\Repos\iraSerg\irina-shinova_kt-31-22\irinaShinovaKt-31-22\obj\Debug\net7.0\irinaShinovaKt-31-22.genruntimeconfig.cache
 D:\Source\Repos\iraSerg\irina-shinova_kt-31-22\irinaShinovaKt-31-22\obj\Debug\net7.0\ref\irinaShinovaKt-31-22.dll
+D:\Source\Repos\iraSerg\irina-shinova_kt-31-22\irinaShinovaKt-31-22\bin\Debug\net7.0\Humanizer.dll
+D:\Source\Repos\iraSerg\irina-shinova_kt-31-22\irinaShinovaKt-31-22\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Source\Repos\iraSerg\irina-shinova_kt-31-22\irinaShinovaKt-31-22\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Source\Repos\iraSerg\irina-shinova_kt-31-22\irinaShinovaKt-31-22\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Source\Repos\iraSerg\irina-shinova_kt-31-22\irinaShinovaKt-31-22\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Source\Repos\iraSerg\irina-shinova_kt-31-22\irinaShinovaKt-31-22\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Source\Repos\iraSerg\irina-shinova_kt-31-22\irinaShinovaKt-31-22\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Source\Repos\iraSerg\irina-shinova_kt-31-22\irinaShinovaKt-31-22\bin\Debug\net7.0\Npgsql.dll
+D:\Source\Repos\iraSerg\irina-shinova_kt-31-22\irinaShinovaKt-31-22\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Source\Repos\iraSerg\irina-shinova_kt-31-22\irinaShinovaKt-31-22\bin\Debug\net7.0\System.CodeDom.dll
