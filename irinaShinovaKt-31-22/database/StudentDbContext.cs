@@ -13,6 +13,9 @@ namespace irinaShinovaKt_31_22.database
         {
             modelBuilder.ApplyConfiguration(new StudentConfiguration());
             modelBuilder.ApplyConfiguration(new GroupConfiguration());
+            modelBuilder.ApplyConfiguration(new GradeRecordConfiguration());
+            modelBuilder.ApplyConfiguration(new SubjectConfiguration());
+            modelBuilder.ApplyConfiguration(new AttendanceRecordConfiguration());
         }
         public StudentDbContext(DbContextOptions<StudentDbContext> options): base(options) { 
             

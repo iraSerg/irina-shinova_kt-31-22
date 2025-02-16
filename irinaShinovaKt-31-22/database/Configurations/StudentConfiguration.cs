@@ -49,9 +49,23 @@ namespace irinaShinovaKt_31_22.database.Configurations
                 .OnDelete(DeleteBehavior.Cascade);
             builder.ToTable(TableName)
                 .HasIndex(p => p.GroupId, $"idx_{TableName}_fk_f_group_id");
+
+            builder.HasMany(s => s.Grades)
+               .WithOne(g => g.Student)
+               .HasForeignKey(g => g.StudentId)
+               .OnDelete(DeleteBehavior.Cascade);
+
+            builder.HasMany(s => s.Attendances)
+                .WithOne(a => a.Student)
+                .HasForeignKey(a => a.StudentId)
+                .OnDelete(DeleteBehavior.Cascade);
+
             builder.Navigation(p => p.Group)
                 .AutoInclude();
-
+            builder.Navigation(p => p.Grades)
+                .AutoInclude();
+            builder.Navigation(p => p.Attendances)
+                .AutoInclude();
 
         }
     }

@@ -15,5 +15,8 @@ namespace irinaShinovaKt_31_22.Models
         public int GroupId { get; set; }
 
         public Group Group { get; set; }
+        public virtual ICollection<GradeRecord> Grades { get; set; }
+
+        public virtual ICollection<AttendanceRecord> Attendances { get; set; }
     }
 }
