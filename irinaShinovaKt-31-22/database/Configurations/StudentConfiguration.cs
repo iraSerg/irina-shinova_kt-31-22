@@ -63,9 +63,9 @@ namespace irinaShinovaKt_31_22.database.Configurations
             builder.Navigation(p => p.Group)
                 .AutoInclude();
             builder.Navigation(p => p.Grades)
-                .AutoInclude();
+                .AutoInclude(false);
             builder.Navigation(p => p.Attendances)
-                .AutoInclude();
+                .AutoInclude(false);
 
         }
     }

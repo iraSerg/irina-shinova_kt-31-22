@@ -6,8 +6,11 @@ namespace irinaShinovaKt_31_22.database
 {
     public class StudentDbContext: DbContext
     {
-        DbSet<Student> Students { get; set; }
-        DbSet<Group> Groups { get; set; }
+        public DbSet<Student> Students { get; set; }
+        public  DbSet<Group> Groups { get; set; }
+        public DbSet<Subject> Subjects { get; set; }
+        public DbSet<GradeRecord> GradeRecords { get; set; }
+        public DbSet<AttendanceRecord> AttendanceRecords { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

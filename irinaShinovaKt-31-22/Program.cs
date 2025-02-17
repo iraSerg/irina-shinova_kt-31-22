@@ -1,4 +1,5 @@
 using irinaShinovaKt_31_22.database;
+using irinaShinovaKt_31_22.ServiceExtensions;
 using Microsoft.EntityFrameworkCore;
 using NLog;
 using NLog.Web;
@@ -14,8 +15,9 @@ try {
     builder.Services.AddSwaggerGen();
 
     builder.Services.AddDbContext<StudentDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));    var app = builder.Build();
-
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));    
+    builder.Services.AddServices();
+    var app = builder.Build();
     // Configure the HTTP request pipeline.
     if (app.Environment.IsDevelopment())
     {

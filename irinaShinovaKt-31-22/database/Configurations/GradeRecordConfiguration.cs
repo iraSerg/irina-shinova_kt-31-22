@@ -50,10 +50,10 @@ namespace irinaShinovaKt_31_22.database.Configurations
 
          
             builder.Navigation(gr => gr.Student)
-                .AutoInclude();
+                .AutoInclude(false);
 
             builder.Navigation(gr => gr.Subject)
-                .AutoInclude();
+                .AutoInclude(false);
         }
     }
 }

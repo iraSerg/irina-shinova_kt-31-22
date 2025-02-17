@@ -51,10 +51,10 @@ namespace irinaShinovaKt_31_22.database.Configurations
 
             
             builder.Navigation(ar => ar.Student)
-                .AutoInclude();
+                .AutoInclude(false);
 
             builder.Navigation(ar => ar.Subject)
-                .AutoInclude();
+                .AutoInclude(false);
 
         }
 

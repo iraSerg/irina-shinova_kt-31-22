@@ -31,10 +31,10 @@ namespace irinaShinovaKt_31_22.database.Configurations
 
       
             builder.Navigation(s => s.Grades)
-                .AutoInclude();
+                .AutoInclude(false);
 
             builder.Navigation(s => s.Attendances)
-                .AutoInclude();
+                .AutoInclude(false);
         }
     }
 }
