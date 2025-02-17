@@ -1,5 +1,4 @@
 using irinaShinovaKt_31_22.database;
-using irinaShinovaKt_31_22.Middlewares;
 using irinaShinovaKt_31_22.ServiceExtensions;
 using Microsoft.EntityFrameworkCore;
 using NLog;
@@ -25,7 +24,6 @@ try {
         app.UseSwagger();
         app.UseSwaggerUI();
     }
-    app.UseMiddleware<ExceptionHandlerMiddleware>();
 
     app.UseAuthorization();
 
