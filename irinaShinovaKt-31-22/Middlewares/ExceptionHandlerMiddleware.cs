@@ -1,4 +1,5 @@
-﻿namespace irinaShinovaKt_31_22.Middlewares
+﻿using System.Net;
+namespace irinaShinovaKt_31_22.Middlewares
 {
     public class ExceptionHandlerMiddleware
     {

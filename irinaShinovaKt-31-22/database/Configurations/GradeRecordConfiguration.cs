@@ -40,6 +40,7 @@ namespace irinaShinovaKt_31_22.database.Configurations
                 .HasConstraintName("fk_cd_grade_record_student_id")
                 .OnDelete(DeleteBehavior.Cascade);
 
+           
             builder.HasOne(gr => gr.Subject)
                 .WithMany(s => s.Grades)
                 .HasForeignKey(gr => gr.SubjectId)
@@ -54,6 +55,7 @@ namespace irinaShinovaKt_31_22.database.Configurations
 
             builder.Navigation(gr => gr.Subject)
                 .AutoInclude(false);
+
         }
     }
 }
